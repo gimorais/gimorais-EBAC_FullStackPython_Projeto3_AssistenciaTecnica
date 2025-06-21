@@ -1,0 +1,43 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.logo img {
+    width: auto;
+    height: 3rem;
+}
+
+.logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #014040;
+}
+
+.nav .nav-link.active {
+    background-color: #fff;
+    color: #014040;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover  {
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #2EF2DF;
+}
+
+.navbar-brand {
+    font-family: "Tomorrow", sans-serif;
+    margin: 0;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
