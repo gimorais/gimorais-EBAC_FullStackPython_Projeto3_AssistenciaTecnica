@@ -33,11 +33,51 @@ body {
     color: #2EF2DF;
 }
 
-.navbar-brand {
+.text-title {
     font-family: "Tomorrow", sans-serif;
     margin: 0;
 }
 
 .navbar-toggler {
     background-color: #fff;
+}
+
+.text-colored {
+    color: #2EF2DF;
+}
+
+#inicio {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    padding: 6rem 0;
+    color: #EAFDFC;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#inicio .content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+#inicio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#inicio p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
 }
