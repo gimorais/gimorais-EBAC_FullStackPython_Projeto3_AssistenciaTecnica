@@ -55,7 +55,8 @@ body {
 
 #inicio,
 #servicos,
-#depoimentos {
+#depoimentos,
+#galeria {
     color: #EAFDFC;
 }
 
@@ -91,17 +92,8 @@ body {
     background-color: #014040;
 }
 
-#servicos .text-title,
-#depoimentos .text-title {
-    text-align: center;
-}
-
-.servicos-meio {
-    border-left: solid 1px #061D26;
-    border-right: solid 1px #061D26;
-}
-
-#depoimentos {
+#depoimentos, 
+#galeria {
     background-color: #061D26;
 }
 
@@ -159,4 +151,13 @@ body {
     text-align: end;
     padding-top: 0.5rem;
     border-top: 1px solid #2EF2DF22;
+}
+
+#galeria .carousel-inner img {
+    object-fit: cover;
+    height: 400px;
+}
+
+#galeria .carousel-indicators button {
+    background-color: #2EF2DF;
 }
