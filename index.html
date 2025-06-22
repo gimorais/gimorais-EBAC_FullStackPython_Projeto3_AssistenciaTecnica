@@ -48,7 +48,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#contato">
                             <i class="bi bi-chat-square-text me-1"></i>
                             Contato
                         </a>
@@ -314,6 +314,47 @@
                             <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-title text-center">Solicite um Orçamento</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6">
+                        <form class="mt-4">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome:</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Nome Sobrenome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label">Telefone:</label>
+                                <input type="tel" class="form-control" id="telefone" placeholder="(00) 00000-0000" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail:</label>
+                                <input type="email" class="form-control" id="email" placeholder="email@exemplo.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="form-servico" class="form-label">Tipo de Serviço:</label>
+                                <select class="form-select" id="form-servico" aria-label="Seleção de Serviço">
+                                    <option selected>Selecione</option>
+                                    <option value="1">Consultoria</option>
+                                    <option value="2">Manutenção</option>
+                                    <option value="3">Montagem</option>
+                                    <option value="4">Upgrades</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Mensagem:</label>
+                                <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn d-block mx-auto">Enviar</button>
+                        </form>
                     </div>
                 </div>
             </div>

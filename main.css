@@ -161,3 +161,8 @@ body {
 #galeria .carousel-indicators button {
     background-color: #2EF2DF;
 }
+
+#contato .btn {
+    background-color: #2EF2DF;
+    font-weight: 600;
+}
