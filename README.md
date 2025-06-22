@@ -1,27 +1,38 @@
-# 💻 Liga dos PCs
+# 💻 Assistência Técnica – Site Institucional
 
-Landing page fictícia desenvolvida como exercício do módulo de HTML, CSS e Bootstrap da Formação Fullstack Python (EBAC).
+Este é um site institucional para uma empresa fictícia de assistência técnica de computadores, desenvolvido com foco em responsividade, visual moderno e boa experiência do usuário.
 
-## 📌 Proposta
-
-Criar uma nova landing page a partir do layout base aprendido durante o curso, com tema livre e foco em responsividade, componentes do Bootstrap e identidade visual personalizada.
-
----
-
-## 🚀 Tecnologias Utilizadas
+## 🔧 Tecnologias Utilizadas
 
 - HTML5
 - CSS3
 - Bootstrap 5
-- Bootstrap Icons
-- Google Fonts (Roboto + Tomorrow)
-- jQuery (slim)
-- Vercel (para deploy)
+- JavaScript
+- jQuery
+- [jQuery Mask Plugin](https://igorescobar.github.io/jQuery-Mask-Plugin/)
 
----
+## 📌 Funcionalidades
 
-## 📷 Funcionalidades (até o momento)
+- **Layout totalmente responsivo** 💡  
+  Adaptação fluida para dispositivos móveis e desktops, com seções organizadas e agradáveis ao usuário.
 
-- Header com logo, título e menu responsivo
-- Navegação com ícones
-- Estrutura inicial da landing page pronta para expansão
+- **Seção de Serviços** 🔧  
+  Exibição clara dos principais serviços oferecidos com ícones e descrições.
+
+- **Depoimentos de Clientes** ⭐  
+  Cards estilizados com citações e avaliações.
+
+- **Galeria de Trabalhos** 🖼️  
+  Carousel com imagens ilustrativas de projetos.
+
+- **Formulário de Contato com Validações** 📨  
+  - Máscara no campo de telefone (`(00) 00000-0000`)
+  - Nome completo obrigatório (nome + sobrenome)
+  - Seleção obrigatória do tipo de serviço
+  - Validação automática do campo de e-mail pelo HTML5
+
+- **Rodapé** 📍  
+  Informações de contato fictícias, aviso de direitos autorais e ícones de redes sociais estilizados.
+
+## 📝 Observações
+Este projeto foi desenvolvido com fins educacionais e como portfólio pessoal. Nenhuma informação de contato ou endereço é real.
