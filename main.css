@@ -169,6 +169,12 @@ footer  {
     font-weight: 600;
 }
 
+#contato .btn:hover {
+    background-color: #014040;
+    color: #EAFDFC;
+    font-weight: 600;
+}
+
 #footer {
     background-color: #012D2D;
     color: #EAFDFC;
