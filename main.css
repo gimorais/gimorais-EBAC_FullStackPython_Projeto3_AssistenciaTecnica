@@ -51,6 +51,11 @@ body {
     overflow: hidden;
     height: auto;
     padding: 6rem 0;
+}
+
+#inicio,
+#servicos,
+#depoimentos {
     color: #EAFDFC;
 }
 
@@ -84,14 +89,74 @@ body {
 
 #servicos {
     background-color: #014040;
-    color: #EAFDFC;
 }
 
-#servicos .text-title {
+#servicos .text-title,
+#depoimentos .text-title {
     text-align: center;
 }
 
 .servicos-meio {
     border-left: solid 1px #061D26;
     border-right: solid 1px #061D26;
+}
+
+#depoimentos {
+    background-color: #061D26;
+}
+
+#depoimentos .card {
+    background-color: #012D2D;
+    border: 1px solid #2EF2DF33;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem;
+    height: 100%;
+    color: #EAFDFC;
+}
+
+#depoimentos .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+#depoimentos .card-header {
+    gap: 0.75rem;
+    border-bottom: 1px solid #2EF2DF22;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#depoimentos .card-header img {
+    width: auto;
+    height: 2.5rem;
+}
+
+#depoimentos .card-body cite {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.card-body cite::before,
+.card-body cite::after {
+    color: #2EF2DF;
+    font-size: 1.5rem;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.card-body cite::before {
+    content: "“";
+    margin-right: 4px;
+}
+
+.card-body cite::after {
+    content: "”";
+    margin-left: 4px;
+}
+
+#depoimentos .card-footer {
+    text-align: end;
+    padding-top: 0.5rem;
+    border-top: 1px solid #2EF2DF22;
 }
