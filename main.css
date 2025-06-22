@@ -81,3 +81,17 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
+
+#servicos {
+    background-color: #014040;
+    color: #EAFDFC;
+}
+
+#servicos .text-title {
+    text-align: center;
+}
+
+.servicos-meio {
+    border-left: solid 1px #061D26;
+    border-right: solid 1px #061D26;
+}
