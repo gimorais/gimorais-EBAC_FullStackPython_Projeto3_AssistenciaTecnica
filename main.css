@@ -13,7 +13,8 @@ body {
     align-items: center;
 }
 
-.navbar {
+.navbar,
+footer {
     background-color: #014040;
 }
 
@@ -24,7 +25,8 @@ body {
 
 .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover  {
+.navbar-brand:hover,
+footer  {
     font-weight: 600;
     color: #fff;
 }
@@ -165,4 +167,33 @@ body {
 #contato .btn {
     background-color: #2EF2DF;
     font-weight: 600;
+}
+
+#footer {
+    background-color: #012D2D;
+    color: #EAFDFC;
+    font-size: 0.95rem;
+}
+
+#footer a {
+    color: #EAFDFC;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.2s ease;
+}
+
+#footer a:hover {
+    color: #2EF2DF;
+}
+
+#footer .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    #footer .social-icons {
+        justify-content: flex-end;
+    }
 }
